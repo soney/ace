@@ -350,6 +350,12 @@ copy({
     dest: 'build/src/cockpit-uncompressed.js'
 });
 
+console.log('#ace-connect --------');
+copy({
+	source: "build_support/ace-connect.js",
+    dest: 'build/src/ace-connect.js'
+});
+
 // copy complex demo
 //copy({
 //    source: aceHome + "/editor.html",

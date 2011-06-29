@@ -2,7 +2,7 @@ build:
 	mkdir -p build/src
 	mkdir -p build/textarea/src
 	./Makefile.dryice.js normal
-	./Makefile.dryice.js bm
+#	./Makefile.dryice.js bm
 
 clean:
 	rm -rf build

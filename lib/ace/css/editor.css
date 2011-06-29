@@ -165,3 +165,11 @@
 .ace_dragging .ace_marker-layer, .ace_dragging .ace_text-layer {
   cursor: move;
 }
+
+.ace_livedoc-layer {
+	cursor: text;
+	pointer-events: none;
+	background-color: #EEE;
+	border-left: 3px dotted black;
+	opacity: 0.1;
+}
