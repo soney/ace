@@ -167,9 +167,14 @@
 }
 
 .ace_livedoc-layer {
-	cursor: text;
+}
+
+.ace_livedoc-layer.idle {
 	pointer-events: none;
-	background-color: #EEE;
-	border-left: 3px dotted black;
-	opacity: 0.1;
+	cursor: text;
+}
+
+.ace_livedoc-layer.active {
+	pointer-events: auto;
+	cursor: default;
 }
