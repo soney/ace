@@ -167,9 +167,6 @@
 }
 
 .ace_livedoc-layer {
-}
-
-.ace_livedoc-layer.idle {
 	pointer-events: none;
 	cursor: text;
 }
