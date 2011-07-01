@@ -178,3 +178,31 @@
 	pointer-events: auto;
 	cursor: default;
 }
+
+.ace_livedoc-overlay {
+	pointer-events: none;
+}
+
+.ace_livedoc-overlay.search_mode {
+	background-color: #CCC;
+	opacity: 0.6;
+}
+
+.ace_livedoc-overlay.doc_mode {
+}
+
+.ace_livedoc-overlay.doc_mode > div.doc_overlay {
+	position: absolute;
+	background-color: #FFF;
+	opacity: 0.7;
+}
+
+.ace_livedoc-overlay.doc_mode > div.doc_selection {
+	border: 1px solid black;
+	border-bottom: 1px solid white;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	position: absolute;
+	opacity: 0.5;
+	box-shadow: 2px 2px 2px #777;
+}
