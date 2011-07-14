@@ -193,13 +193,3 @@
 	background-color: #FFF;
 	opacity: 0.7;
 }
-
-.ace_livedoc-overlay.doc_mode > div.doc_selection {
-	border: 1px solid black;
-	border-bottom: 1px solid white;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-	position: absolute;
-	opacity: 0.5;
-	box-shadow: 2px 2px 2px #777;
-}
