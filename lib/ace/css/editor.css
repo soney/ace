@@ -166,30 +166,6 @@
   cursor: move;
 }
 
-.ace_livedoc-layer {
-	pointer-events: none;
-	cursor: text;
-}
-
-.ace_livedoc-layer.active {
-	pointer-events: auto;
-	cursor: default;
-}
-
 .ace_livedoc-overlay {
 	pointer-events: none;
-}
-
-.ace_livedoc-overlay.search_mode {
-	background-color: #CCC;
-	opacity: 0.6;
-}
-
-.ace_livedoc-overlay.doc_mode {
-}
-
-.ace_livedoc-overlay.doc_mode > div.doc_overlay {
-	position: absolute;
-	background-color: #FFF;
-	opacity: 0.7;
 }
