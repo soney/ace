@@ -168,4 +168,5 @@
 
 .ace_livedoc-overlay {
 	pointer-events: none;
+	overflow: visible;
 }
